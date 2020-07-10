@@ -24,7 +24,7 @@
 Пример **Dockerfile** для сборки вашего образа:
 
 ```Dockerfile
-FROM docker-bssbox-dev-local.billing.ru/onbuild/liquibase:latest
+FROM docker.ru/onbuild/liquibase:latest
 COPY ./changelog /liquibase/changelog
 COPY ./lib /liquibase/lib
 ```
