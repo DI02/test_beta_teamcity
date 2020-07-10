@@ -1,0 +1,11 @@
+__pycache__
+*.py[co]
+*.retry
+*.sw[nop]
+.DS_Store
+.idea
+.vscode
+.venv
+.iml
+.deploy
+versions.list
